@@ -117,8 +117,13 @@ line_chart = dashboard.ChartXY(column_index=4, row_index=4, row_span=4, column_s
 line_chart.set_title("Environmental Data Trends")
 series = line_chart.add_line_series(data_pattern="ProgressiveX")
 ```
-![](Images/forcasting_weather.png)  
+
+#### **Real-Time and the Next Six Hours Forecasting Dashboard**
 ![](Images/real_time.gif)  
+
+#### **Weekly Forecasting Dashboard**
+![](Images/forcasting_weather.png)
+
 
 ### Customizing Visualizations
 - **Color Palettes**: Used different gradient colors to show better data intensities.
